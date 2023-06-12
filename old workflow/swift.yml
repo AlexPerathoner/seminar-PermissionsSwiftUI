@@ -17,7 +17,7 @@ jobs:
       with:
         xcode-version: latest-stable
     - name: Build
-      run: xcodebuild -scheme PermissionsSwiftUI -destination 'generic/platform=iOS' build
+      run: xcodebuild -scheme PermissionsSwiftUI-Package -destination 'generic/platform=macOS' test
 #   test_iOS:
 #      runs-on: macos-latest
 #      steps:
